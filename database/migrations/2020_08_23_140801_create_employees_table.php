@@ -19,7 +19,7 @@ class CreateEmployeesTable extends Migration
             $table->string('last_name', 255);
             $table->integer('date_of_birth')->unsigned();
             $table->smallInteger('weight')->unsigned()->default(0);
-            $table->string('height', 16)->default("0'0\"");
+            $table->string('height', 255)->default("");
             $table->integer('salary')->unsigned()->default(0);
             $table->string('position', 255)->default("");
             $table->timestamps();

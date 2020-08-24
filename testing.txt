@@ -1,0 +1,20 @@
+Warning: TTY mode is not supported on Windows platform.
+
+   RUNS  [2mTests\Unit\[22mExampleTest
+  • [2mbasic test[22m
+
+  Tests:  [2m2 pending[22m
+
+   PASS  [2mTests\Unit\[22mExampleTest
+  ✓ [2mbasic test[22m
+
+   RUNS  [2mTests\Feature\[22mExampleTest
+  • [2mbasic test[22m
+
+  Tests:  1 passed, [2m1 pending[22m
+
+   PASS  [2mTests\Feature\[22mExampleTest
+  ✓ [2mbasic test[22m
+
+  Tests:  2 passed
+  Time:   0.11s
